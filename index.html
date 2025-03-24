@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1><font font-size="+3"><font color="green"><font style="gregorian">This is My Webpage:</font></font></font></h1>
+    
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+    
+    <h2>External Image</h2>
+    <img src="images/pexels-mikebirdy-112460.jpg" width="400">
+    
+    <h2>Contact Table</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Kiriamiti</td>
+            <td>004 Street, KU</td>
+            <td>+254123456789</td>
+            <td>johnk254@gmail.com.com</td>
+        </tr>
+        <tr>
+            <td>Jane Kamau</td>
+            <td>456 Avenue, CA</td>
+            <td>+254798765432</td>
+            <td>janekamau423@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>Mike Mwendwa</td>
+            <td>789 Road, TRM</td>
+            <td>+254112233445</td>
+            <td>mikemwend004@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Emily Chebet</td>
+            <td>101 Hill, ND</td>
+            <td>+254722334455</td>
+            <td>emilycheb@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>Chris Matin</td>
+            <td>202 Lane, WA</td>
+            <td>+254797426556</td>
+            <td>chrismatty@gmail.com</td>
+        </tr>
+    </table>
+    
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        
+        <label>Subscribe to Newsletter:</label>
+        <input type="checkbox" name="newsletter" value="yes"><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
